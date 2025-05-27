@@ -14,12 +14,12 @@ timezone: Asia/Kolkata
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: My Blog Posts # the main title
+title: Tensor Notes # the main title
 
-tagline: A blog site for machine learning, programming and mathematics. # it will display as the subtitle
+tagline: From equations to execution — insights into ML, math, and code. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A blog site that is used for posting about topics related to machine learning, programming and mathematics.
+  Collection of articles on machine learning, applied mathematics, and programming techniques — for learners and practitioners alike.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/profilepic.jpeg # string, local or CORS resources
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
